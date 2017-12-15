@@ -3,21 +3,19 @@ import numpy as np
 
 #-----ResNet50--------#
 from keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
-
 #-----Mobilenet-------#
 from keras.applications.mobilenet import MobileNet, preprocess_input, decode_predictions
-
 #-----InceptionV3-----#
 from keras.applications.inception_v3 import InceptionV3, preprocess_input, decode_predictions
 
 
-# 1: ResNet50, 2: MobileNet, 3: InceptionV3
-choice = 3
+# 1: MobileNet, 2: ResNet50, 3: InceptionV3
+choice = 1
 
 if choice == 1:
-    model = ResNet50(weights='imagenet')
-elif choice == 2:
     model = MobileNet(weights='imagenet')
+elif choice == 2:
+    model = ResNet50 (weights='imagenet')
 else:
     model = InceptionV3(weights='imagenet')
 
