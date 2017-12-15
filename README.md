@@ -14,7 +14,7 @@ This is a simple example of using ResNet, MobileNet and InceptionV3 from Keras t
 
 In this case, both MobileNet and InceptionV3 successfully recognize the traffic light, but the ResNet50 seems to be confused by it.
 
-### 1 Model Comparison
+### 1. Model Comparison
 
 |    Model    |  Size | Parameters | Depth |
 |:-----------:|:-----:|:----------:|:-----:|
@@ -22,7 +22,7 @@ In this case, both MobileNet and InceptionV3 successfully recognize the traffic 
 |   ResNet50  | 99 MB | 25,636,712 |  168  |
 | InceptionV3 | 92 MB | 23,851,784 |  159  |
 
-### 2 How to run the code:
+### 2. How to run the code:
 
 1. Select the network by changing the `choice` value in `main.py`:
 ```sh
@@ -36,7 +36,7 @@ choice = 1
 python  main.py
 ```
 
-### 3 Requirements: 
+### 3. Requirements: 
 * keras>=2.0.8
 * tensorflow>=1.3.0 or tensorflow-gpu>=1.3.0
 * numpy>=1.13.1
