@@ -1,4 +1,4 @@
-# ResNet MobileNet InceptionV3
+# Comparison of MobileNet, ResNet50, and InceptionV3 in Keras
 
 This is a simple example of using ResNet, MobileNet and InceptionV3 from Keras to do object detection and classification tasks.
 
