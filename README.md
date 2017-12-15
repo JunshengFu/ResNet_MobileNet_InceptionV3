@@ -12,7 +12,7 @@ This is a simple example of using ResNet, MobileNet and InceptionV3 from Keras t
 | 2nd guess |    'pole', 6.4110359e-06    | 'dishwasher', 0.042908493 |    'maillot', 8.7838531e-10    |
 | 3rd guess |  'flagpole', 4.8521628e-07  |   'cleaver', 0.026148975  | 'walking_stick', 5.6997368e-10 |
 
-In this case, both MobileNet and InceptionV3 successfully recognize the traffic light, but the ResNet50 seems to be confused by it.
+In this case, both MobileNet and InceptionV3 successfully recognize the traffic light, but the ResNet50 seems to be confused by it. Also, as for Model size, we can see from the _Model Comparision_ section, and get to know that MobileNet has really small size. MobileNet can be a great choice for real-time applications.
 
 **Papers**
 
