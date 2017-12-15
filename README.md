@@ -14,6 +14,12 @@ This is a simple example of using ResNet, MobileNet and InceptionV3 from Keras t
 
 In this case, both MobileNet and InceptionV3 successfully recognize the traffic light, but the ResNet50 seems to be confused by it.
 
+**Papers**
+
+* MobileNet: [Efficient Convolutional Neural Networks for Mobile Vision Applications](https://arxiv.org/pdf/1704.04861.pdf)
+* ResNet50: [Deep Residual Learning for Image Recognition](https://arxiv.org/abs/1512.03385)
+* InceptionV3:[Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
+
 ### 1. Model Comparison
 
 |    Model    |  Size | Parameters | Depth |
